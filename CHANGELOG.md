@@ -1,6 +1,10 @@
 # Changelog for AdvancedNewFile
 Information from future releases can be seen by browsing the `messages` directory for the version.
 
+# Unreleased
+
+  - Disable global keybinds to avoid conflict
+
 - 9 November 2013 / 1.0.0
     - Switch to semantic versioning.
     - Rename default with special token for current file.
