@@ -3,6 +3,7 @@ Information from future releases can be seen by browsing the `messages` director
 
 # Unreleased
 
+# 1.8.002
   - Disable global keybinds to avoid conflict
 
 - 9 November 2013 / 1.0.0
