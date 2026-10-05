@@ -2,6 +2,8 @@
 Information from future releases can be seen by browsing the `messages` directory for the version.
 
 # Unreleased
+
+# 1.8.003
   - Updated the main menu not to override default captions/mnemonics (that could have been changed by the user)
 
 # 1.8.002
