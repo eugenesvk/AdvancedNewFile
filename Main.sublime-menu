@@ -1,46 +1,16 @@
 [
-	{
-		"caption": "Preferences",
-		"mnemonic": "n",
-		"id": "preferences",
-		"children":
-		[
-			{
-				"caption": "Package Settings",
-				"mnemonic": "P",
-				"id": "package-settings",
-				"children":
-				[
-					{
-						"caption": "AdvancedNewFile",
-						"children":
-						[
-							{
-								"caption": "README",
-								"command": "open_file",
-								"args": {"file": "${packages}/AdvancedNewFile/README.md"}
-							},
-							{ "caption": "-" },
-							{
-								"caption": "Settings",
-								"command": "edit_settings",
-								"args": {
-									"base_file": "${packages}/AdvancedNewFile/AdvancedNewFile.sublime-settings",
-									"default": "// Settings in here override those in \"AdvancedNewFile/AdvancedNewFile.sublime-settings\".\n{\n\t$0\n}\n"
-								}
-							},
-							{
-								"caption": "Key Bindings",
-								"command": "edit_settings",
-								"args": {
-									"base_file": "${packages}/AdvancedNewFile/Default ($platform).sublime-keymap",
-									"default": "[\n\t$0\n]\n"
-								}
-							}
-						]
-					}
-				]
-			}
-		]
-	}
+{  "id":"preferences"     ,"children":[
+  {"id":"package-settings","children":[
+  {"caption":"AdvancedNewFile", "children":[
+    {"caption":"ReadMe"  ,"command":"open_file","args":{"file":"${packages}/AdvancedNewFile/README.md"}},
+    {"caption":"-"},
+    {"caption":"Settings","command":"edit_settings","args":{
+      "base_file":"${packages}/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+      "default"  :"// Settings in here override those in \"AdvancedNewFile/AdvancedNewFile.sublime-settings\".\n{\n\t$0\n}\n"} },
+    {"caption"   :"Key Bindings","command": "edit_settings","args": {
+      "base_file":"${packages}/AdvancedNewFile/Default ($platform).sublime-keymap",
+      "default"  :"[\n\t$0\n]\n"}  }
+    ]}
+  ]}
+]}
 ]
